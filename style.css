@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css2?family=Potta+One&display=swap);
+html
+{background-image:-webkit-linear-gradient(120deg,#77c2f7ba 40%,#1973f5ba 70%);
+min-height:700px}
+h1
+{
+    text-align: center;
+}
+body{text-align:center;margin:0 0}
+h1{font-size:4rem;
+    color:black;
+    font-weight:700;
+    text-shadow:4px 3px #e6198f;
+    font-family:'Potta One',cursive}
+
+#user
+{
+    gap: 20px;
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   margin-top:100px;
+   height: 33vw;
+}
+.choose{
+    width:33vw;
+    height:33vw;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column}
+    
+.choose #snake,.choose #water,.choose #gun {
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    
+  }
+  #snake{
+    background: url('snake.jpeg') no-repeat;
+    background-size: 100%;
+  }
+  #water{
+    background: url('water.jpeg') no-repeat;
+    background-size: 100%;
+  }
+  #gun{
+    background: url('gun.jpeg') no-repeat;
+    background-size: 100%;
+  }
+  
+ .again
+  {
+    padding-top: 25px;
+      text-align: center;
+  }
+
+
+
+button{
+    border:none;
+    padding:10px;
+    font-size:2rem;
+    cursor:pointer;
+    border-radius:10px;
+    background-color:#942626;
+    color:#fff;
+    font-weight:700;
+    margin:20px}
+button:hover
+{background-color:#f90000a8}
+

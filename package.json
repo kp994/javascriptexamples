@@ -1,0 +1,11 @@
+{
+  "name": "swg",
+  "version": "1.0.0",
+  "description": "\"Snake water game demo\"",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "\"kriti\"",
+  "license": "ISC"
+}
